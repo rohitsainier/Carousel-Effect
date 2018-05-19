@@ -14,6 +14,7 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
     @IBOutlet weak var collectionView: UICollectionViewCell!
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("")
         
     }
     
