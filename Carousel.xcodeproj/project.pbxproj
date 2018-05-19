@@ -12,6 +12,7 @@
 		2217A2E8200E5F3500181E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2217A2E6200E5F3500181E52 /* Main.storyboard */; };
 		2217A2EA200E5F3500181E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2217A2E9200E5F3500181E52 /* Assets.xcassets */; };
 		2217A2ED200E5F3500181E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2217A2EB200E5F3500181E52 /* LaunchScreen.storyboard */; };
+		2217A2F9200E62F700181E52 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2217A2F8200E62F700181E52 /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2217A2E9200E5F3500181E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2217A2EC200E5F3500181E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2217A2EE200E5F3500181E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2217A2F8200E62F700181E52 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		2217A2E1200E5F3500181E52 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				2217A2F7200E62CA00181E52 /* CollectionViewCell */,
+				2217A2F6200E618E00181E52 /* Model */,
+				2217A2F5200E618700181E52 /* View */,
+				2217A2F4200E617000181E52 /* Controller */,
 				2217A2E2200E5F3500181E52 /* AppDelegate.swift */,
-				2217A2E4200E5F3500181E52 /* ViewController.swift */,
-				2217A2E6200E5F3500181E52 /* Main.storyboard */,
 				2217A2E9200E5F3500181E52 /* Assets.xcassets */,
 				2217A2EB200E5F3500181E52 /* LaunchScreen.storyboard */,
 				2217A2EE200E5F3500181E52 /* Info.plist */,
 			);
 			path = Carousel;
+			sourceTree = "<group>";
+		};
+		2217A2F4200E617000181E52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2217A2E4200E5F3500181E52 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2217A2F5200E618700181E52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2217A2E6200E5F3500181E52 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2217A2F6200E618E00181E52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2217A2F7200E62CA00181E52 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2217A2F8200E62F700181E52 /* CardCell.swift */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +173,7 @@
 			files = (
 				2217A2E5200E5F3500181E52 /* ViewController.swift in Sources */,
 				2217A2E3200E5F3500181E52 /* AppDelegate.swift in Sources */,
+				2217A2F9200E62F700181E52 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
